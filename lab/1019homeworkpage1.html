@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        em { font-weight:bold;
+            color:black;}
+        h1 { font-family:helvetica,sans-serif;
+            color:lightgoldenrodyellow;
+            background-color:black;}
+        h2 {font-family:fantasy,critter;
+            color:blanchedalmond;
+            font-size:14pt;}
+        em h5 { cont-family:ariel,san-serif;
+            color:darkolivegreen;}
+        p  { font-size:12pt;
+            font-family: georgia,serif;}
+        .special{color:purple;}
+        #firstname{background-color:yellow;}
+        .hometown{background-color:beige}
+        pin {background-color:slategrey;
+            font-size:12pt;
+            font-family:tahoma,monospace;}
+    </style>
+</head>
+<h1>New HTML5 Input Types Demo</h1>
+<h2>here are some questions to ask you.</h2>
+<body align="center">
+<label class="hometown">Color:
+    <input type="color" autofocus/>
+        <em>(Hexadecimal code such as #ADD8E6)</em>
+</label>
+<form action="/action_page.php" method="get">
+    <label for="date" >Date:</label>
+	<input type="date" id="date" name="date" >
+    <label>(mm/dd/yy)</label><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" placeholder="name@domain.com" required><br>
+
+    <label for="quantity">Number </label>
+    <input type="number" id="quantity" name="quantity" min="0" max="7" value="4">
+    <label>(b/t(0:7))</label><br>
+
+    <label for="vol">Volume: </label>
+    <input type="range" id="vol" name="vol" min="0" max="50">
+    <label>b/t(0:50)</label><br>
+
+    <label for="gsearch">Search</label>
+    <input type="text" id="search1" name="search1" placeholder="search query"><br>
+
+    <label for="appt">Time:</label> 
+    <input type="type" id="ippt" name="ippt"><br>
+<div>
+    <h5><em>Submit</em> your choice</h5>
+    <input type="submit" value ="Submit">
+	<input type="clear" value="Clear">
+</div>   
+</body> 
