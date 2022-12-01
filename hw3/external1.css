@@ -1,0 +1,44 @@
+        body        {
+                    background-color: antiquewhite;
+                    height: 100%;
+                    weight: 100%;
+                    }
+        div         {
+                    margin: 2% 5%;
+                    }
+        input       {
+                    width: 85%;
+                    margin: 0% 5%;
+                    background-color: beige;
+                    }
+        label       {
+                    font-family: arial, sans-serif;
+                    font-size: 10pt;
+                    font-weight: bold;
+                    margin: 0% auto;
+                    }
+        .short      {
+                    width: 30%;
+                    }
+        .floated    {
+                    float: right;
+                    width: 65%;
+                    margin: auto 10%;
+                    }
+        .worded     {
+                    float: right;
+                    width: 55%;
+                    margin: auto 0%;
+                    }
+        textarea    {
+                    resize: none;
+                    width: 85%;
+                    height: 100px;
+                    margin: -1% 9%;
+                    background-color: beige;
+                    }
+        img         {
+                    width: 85%;
+                    height: auto;
+                    margin: -1% 9%;
+                    }
